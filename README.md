@@ -2,7 +2,9 @@
 
 This project aims to predict insurance charges based on available data about customers, including age, bmi, and smoking status. First, features are engineered to increase performance. Then different linear regression methods are compared. I conclude that lasso regression performs the best with my chosen features.
 
-[Click here](https://github.com/reedbc1/ml_regression_brendan/blob/main/notebooks/ml_regression_brendan.ipynb) to see the fully run notebook file in GitHub.  
+GitHub Links
+[Fully run notebook](https://github.com/reedbc1/ml_regression_brendan/blob/main/notebooks/ml_regression_brendan.ipynb)
+[Peer Review](https://github.com/reedbc1/ml_regression_brendan/blob/main/peer_review.md)
 
 ## Local Environment
 
