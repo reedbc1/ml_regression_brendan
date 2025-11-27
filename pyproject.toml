@@ -1,15 +1,12 @@
 # pyproject.toml: Modern Python project configuration
 
-# Replaces requirements.txt, setup.py, and multiple config files
-# This ONE file manages dependencies, tools, and standards
-
 
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = ["setuptools>=80", "wheel"]
 
 [project]
-authors = [{name = "Denise Case"}] # TODO: Change to YOUR name (ownership matters)
+authors = [{name = "Brendan Reed"}]
 classifiers = [
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.12",
@@ -30,12 +27,6 @@ dependencies = [ # fmt: off
   "ipykernel",   # Jupyter kernel for notebooks
   "scikit-learn",
 ]  # fmt: on
-
-[project.urls]
-Documentation = "https://denisecase.github.io/pro-analytics-02-starter/"
-Homepage = "https://github.com/denisecase/pro-analytics-02-starter"
-Issues = "https://github.com/denisecase/pro-analytics-02-starter/issues"
-Repository = "https://github.com/denisecase/pro-analytics-02-starter"
 
 [project.optional-dependencies]
 dev = [
